@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">HackBanorte</string>
+    <string name="app_name">BANORTE: PROTOTIPO</string>
+
+    <string name="edtNombre">Ingrese su nombre</string>
+    <string name="edtApeP">Ingrese su apellido</string>
+    <string name="edtApeM">Ingrese su apellido</string>
+    <string name="edtUser">Ingrese su user</string>
+    <string name="edtPass">Ingrese su clave</string>
 </resources>
