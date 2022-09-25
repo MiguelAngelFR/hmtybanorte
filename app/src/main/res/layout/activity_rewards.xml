@@ -166,8 +166,7 @@
         android:layout_height="111dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="19dp"
-        android:onClick="seleccionar4
-"
+        android:onClick="seleccionar4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/img5"
         app:layout_constraintStart_toStartOf="parent"
