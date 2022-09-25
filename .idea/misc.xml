@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Escuela guardado temporal/Xamarin/HackBanorte/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/hmtybanorte/app/src/main/res/layout/activity_editar_usuario.xml" value="0.1" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/hmtybanorte/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/hmtybanorte/app/src/main/res/layout/activity_rewards.xml" value="0.33" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

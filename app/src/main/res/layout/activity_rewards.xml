@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rewards">
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="65dp"
+        android:onClick="seleccionar3"
+        app:layout_constraintBottom_toTopOf="@+id/img6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img2"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/mochila" />
+
+    <ImageView
+        android:id="@+id/img7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="seleccionar7"
+        app:layout_constraintBottom_toBottomOf="@+id/img9"
+        app:layout_constraintEnd_toStartOf="@+id/img8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img8"
+        app:srcCompat="@drawable/nintendo" />
+
+    <ImageView
+        android:id="@+id/img8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="29dp"
+        android:onClick="seleccionar8"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/img9"
+        app:layout_constraintStart_toEndOf="@+id/img7"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/playera" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="15dp"
+        android:text="3000 puntos"
+        app:layout_constraintBottom_toTopOf="@+id/img5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="5dp"
+        android:text="10000 puntos"
+        app:layout_constraintBottom_toTopOf="@+id/img8"
+        app:layout_constraintEnd_toEndOf="@+id/img7"
+        app:layout_constraintTop_toBottomOf="@+id/img5" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="1dp"
+        android:onClick="seleccionar1"
+        app:layout_constraintBottom_toBottomOf="@+id/img3"
+        app:layout_constraintEnd_toStartOf="@+id/img2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img2"
+        app:srcCompat="@drawable/termo_rojo"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="11dp"
+        android:text="1000 puntos"
+        app:layout_constraintBottom_toTopOf="@+id/img2"
+        app:layout_constraintStart_toStartOf="@+id/img1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="17dp"
+        android:onClick="seleccionar5"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/img6"
+        app:layout_constraintStart_toEndOf="@+id/img4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/tablet" />
+
+    <ImageView
+        android:id="@+id/img9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="27dp"
+        android:onClick="seleccionar9"
+        app:layout_constraintBottom_toTopOf="@+id/btnReclamar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img8"
+        app:layout_constraintTop_toBottomOf="@+id/img6"
+        app:srcCompat="@drawable/laptop"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/img2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="35dp"
+        android:text="10% de descuento Amazon"
+        android:onClick="seleccionar2"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toStartOf="@+id/img3"
+        app:layout_constraintStart_toEndOf="@+id/img1"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="37dp"
+        android:text="Puntos:"
+        app:layout_constraintBottom_toTopOf="@+id/img3"
+        app:layout_constraintEnd_toEndOf="@+id/img3"
+        app:layout_constraintStart_toStartOf="@+id/img3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="41dp"
+        android:onClick="seleccionar6"
+        app:layout_constraintBottom_toTopOf="@+id/img9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img5"
+        app:layout_constraintTop_toBottomOf="@+id/img3"
+        app:srcCompat="@drawable/audifonos" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="0dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="19dp"
+        android:onClick="seleccionar4
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/img5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bocina" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="17dp"
+        android:text="Regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnReclamar"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img8" />
+
+    <Button
+        android:id="@+id/btnReclamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:enabled="false"
+        android:text="Reclamar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/img9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
