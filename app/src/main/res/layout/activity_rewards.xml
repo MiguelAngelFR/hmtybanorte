@@ -90,7 +90,7 @@
         android:layout_marginStart="1dp"
         android:layout_marginTop="44dp"
         android:layout_marginBottom="11dp"
-        android:text="1000 puntos"
+        android:text="1500 puntos"
         app:layout_constraintBottom_toTopOf="@+id/img2"
         app:layout_constraintStart_toStartOf="@+id/img1"
         app:layout_constraintTop_toTopOf="parent" />
